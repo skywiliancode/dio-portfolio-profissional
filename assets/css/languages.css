@@ -1,4 +1,4 @@
-.languages{
+#languages{
   display: flex;
   flex-direction: row;
   align-items: center; 
@@ -8,12 +8,12 @@
   list-style: none;
 }
 
-.languages li{
+#languages li{
   padding-right: 1rem;
   font-weight: 700;
 }
 
-.languages li::before{
+#languages li::before{
   content: '';
   display: inline-block;
   background-image: url(../img/icons/checked.svg);
