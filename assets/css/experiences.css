@@ -1,0 +1,35 @@
+.experiences{
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.experiences li{
+  margin: 1rem 0;
+
+}
+
+.experiences li .title{
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: .5rem;
+}
+
+.experiences li .period{
+  display: flex;
+  align-items: center;
+  margin-left: .1rem;
+}
+
+.experiences li .period::before{
+  content: '';
+  display: inline-block;
+  background-image: url(../img/icons/calendar.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 1rem;
+  height: 1rem;
+  margin-right: .5rem;
+}

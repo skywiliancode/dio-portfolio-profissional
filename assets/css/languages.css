@@ -1,0 +1,25 @@
+.languages{
+  display: flex;
+  flex-direction: row;
+  align-items: center; 
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.languages li{
+  padding-right: 1rem;
+  font-weight: 700;
+}
+
+.languages li::before{
+  content: '';
+  display: inline-block;
+  background-image: url(../img/icons/checked.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: .7rem;
+  height: .7rem;
+  margin-right: .5rem;
+}
