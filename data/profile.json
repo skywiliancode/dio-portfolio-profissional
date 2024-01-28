@@ -46,13 +46,18 @@
   ],
   "portfolio": [
     {
-      "name": "Curso Ministrado na DIO para a criação de uma Pokedex",
-      "url": "https://github.com/RenanJPaula/js-developer-pokedex",
+      "name": "Curso Ministrado na DIO para a criação de jogo do Yu-Gi-Oh",
+      "url": "https://github.com/skywiliancode/dio-yu-gi-oh-jo-ken-po.git",
       "github": true
     },
     {
-      "name": "Curso Ministrado na DIO para a criação de uma página de portfolio",
-      "url": "https://github.com/RenanJPaula/js-developer-portfolio",
+      "name": "Curso Ministrado na DIO para a criação de um simulador de piano",
+      "url": "https://github.com/skywiliancode/dio-simulador-piano.git",
+      "github": true
+    },
+    {
+      "name": "Curso Ministrado na DIO para a criação de um jogo da mémoria",
+      "url": "https://github.com/skywiliancode/dio-jogo-da-memoria.git",
       "github": true
     }
   ],
